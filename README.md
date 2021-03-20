@@ -74,8 +74,7 @@ push ()
 
 }
 
-void
-pop ()
+void pop ()
 {
   if (top <= -1)
     {
@@ -86,14 +85,11 @@ pop ()
       printf ("Element deleted from stack\n");
       top--;
     }
-
-
 }
 
 void
 display ()
 {
-
   if (top >= 0)
     {
       printf ("Elements are\n");
